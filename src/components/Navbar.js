@@ -8,7 +8,7 @@ export const Navbar = () => (
                 <h5><NavLink className="nav-link title" to="/" exact>Todo List</NavLink></h5>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link title" to="/create" exact>Create New Note</NavLink>
+                <NavLink className="nav-link title" to="/create" exact>Create new note</NavLink>
             </li>
         </ul>
     </nav>

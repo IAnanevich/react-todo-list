@@ -3,7 +3,7 @@ import { Form } from "../components/Form";
 import { FireBaseContext } from "../context/firebase/firebaseContext";
 
 export const AddNewNote = () => {
-    const fetchNotes = useContext(FireBaseContext)
+    const {fetchNotes} = useContext(FireBaseContext)
 
     useEffect(() => {
         fetchNotes()
